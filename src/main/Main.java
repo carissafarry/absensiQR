@@ -18,8 +18,8 @@ public class Main {
         
         System.out.println("Finished executing the Main program.");
         
-        int choice;
-        int no = 1;
+        int choice; //tipe data integer
+        int no = 1; //tipe data integer
 
         do {
             System.out.println("\n=== Sistem Absensi ===");
@@ -33,7 +33,7 @@ public class Main {
             switch (choice) {
                 case 1:
                     addData(listTest, no);
-                    no++;
+                    no++; // operators
                     break;
                 case 2:
                     viewAllData(listTest);
@@ -44,10 +44,10 @@ public class Main {
                 default:
                     System.out.println("Pilihan tidak valid.");
             }
-        } while (choice != 3);
+        } while (choice != 3); // relational yang mengakibatkan looping disini
     }
 
-    public static void addData(ArrayList<Test> listTest, int no) {
+    public static void addData(ArrayList<Test> listTest, int no) { // data masuk disimpan pada urutan array
         System.out.print("Masukkan nama ke-" + no + ": ");
         String name = scanner.nextLine();
         listTest.add(new Test(name));
