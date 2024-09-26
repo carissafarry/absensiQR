@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 public class MainKelas {
     
-    public static void mainkelas(String[] args) {
-        static Scanner scanner = new Scanner(System.in);
-        static KelasManager manager = new KelasManager();
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        KelasManager manager = new KelasManager();
 
         while (true) {
             System.out.println("\nMenu:");
