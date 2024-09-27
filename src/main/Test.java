@@ -6,9 +6,7 @@ public class Test {
 
 
     public Test(String name) {
-       
-        this.id = idCounter;
-        idCounter+=3;
+        this.id = idCounter++;
         this.name = name;
     }
     
