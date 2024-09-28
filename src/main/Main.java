@@ -5,18 +5,6 @@ public class Main {
     static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        System.out.println("Starting the Main program...");
-        
-        // Directly call the initialize method from Api
-        Api.initializeDatabaseConnection(
-            "mysql-absensiqr-absensi-qr.g.aivencloud.com",
-            "18865",
-            "absensiQR",
-            "avnadmin",
-            "AVNS_A_P4HeqNqLccyRJYGDV"
-        );
-        
-        System.out.println("Finished executing the Main program.");
         
         int choice; //tipe data integer
         int no = 1; //tipe data integer
