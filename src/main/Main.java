@@ -33,7 +33,7 @@ public class Main {
             switch (choice) {
                 case 1:
                     addData(listTest, no);
-                    no++; // operators
+                    no++; // operators unary (increment)
                     break;
                 case 2:
                     viewAllData(listTest);

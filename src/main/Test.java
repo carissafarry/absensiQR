@@ -6,7 +6,7 @@ public class Test {
 
 
     public Test(String name) {
-        this.id = idCounter++;
+        this.id = idCounter++; // ini merupakan method konstruk yang akan dieksekusi ketika obj. test dibuatr++;
         this.name = name;
     }
     
