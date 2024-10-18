@@ -5,7 +5,7 @@ public class Main {
     static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        
+            
         int choice; //tipe data integer
         int no = 1; //tipe data integer
 
